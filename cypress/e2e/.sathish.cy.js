@@ -3,6 +3,7 @@ describe('template spec', () => {
     cy.visit('https://example.cypress.io');
     cy.visit('https://www.google.com/');
     cy.visit('https://www.gmail.com/');
+     cy.get(".sample2").click();
     
   })
 })
