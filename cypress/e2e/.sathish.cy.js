@@ -6,5 +6,8 @@ describe('template spec', () => {
      cy.get(".sample222").click();
     cy.get(".sample111").click();
     
+     cy.get(".sample2").click();
+    cy.get(".sample").click();
+    cy.get("sathish").click();
   })
 })
